@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="1" name="Web Automation JumboTiendas" skipped="0" tests="1" time="40.71" timestamp="2019-10-08 04:01:54"><testcase name="Access the page and buy products"><failure message="The following error occurred: Expected enabled element was not enabled" type="net.thucydides.core.webdriver.exceptions.ElementShouldBeEnabledException">The following error occurred: Expected enabled element was not enabled</failure><system-err>The following error occurred: Expected enabled element was not enabled&#13;
+tiendajumbo.tasks.SelectCategory.performAs(SelectCategory.java:22)&#13;
+tiendajumbo.stepdefinitions.TiendaStepDefinition.sheMakesTheRegistrationEntryInTheApplicationSelectFromMenuDespensaAndChooseProducts(TiendaStepDefinition.java:28)&#13;
+cucumber.runner.Runner.runPickle(Runner.java:80)&#13;
+</system-err></testcase></testsuite>

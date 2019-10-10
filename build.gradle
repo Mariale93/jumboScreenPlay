@@ -1,0 +1,38 @@
+repositories {
+    mavenCentral() //repositorio del cual se descargan las dependecias
+}
+buildscript {
+    repositories {
+        mavenCentral()
+    }
+    dependencies {
+        classpath("net.serenity-bdd:serenity-gradle-plugin:1.9.9") //se descargan las clases de gradle
+    }
+}
+apply plugin: 'java'
+apply plugin: 'idea'
+apply plugin: 'net.serenity-bdd.aggregator' //genera los informes agregados en serenity
+
+
+
+compileJava.options.encoding = "UTF-8"
+compileTestJava.options.encoding = "UTF-8"
+
+
+
+dependencies {
+    testCompile 'net.serenity-bdd:serenity-core:1.1.1' //coneccion con core
+    testCompile 'net.serenity-bdd:serenity-junit:1.1.1' //coneccion con junit
+    testCompile('junit:junit:4.12') //ejecutar pruebas unitarias
+    testCompile('org.assertj:assertj-core:1.7.0') // hace la validacion final
+    testCompile('org.slf4j:slf4j-simple:1.7.7') //genera los reportes dinamicos
+
+
+
+    compile 'net.serenity-bdd:serenity-core:1.9.9' //patrón de Serenity (clases necesarias para implementar la automatización)
+    compile 'net.serenity-bdd:serenity-junit:1.9.9'
+    compile 'net.serenity-bdd:serenity-cucumber:1.9.5' //corre el runner con cucumber
+    compile group: 'net.serenity-bdd', name: 'serenity-screenplay-webdriver', version: '2.0.80'
+
+}
+gradle.startParameter.continueOnFailure = true
