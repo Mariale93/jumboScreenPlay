@@ -129,7 +129,7 @@
             <a href="capabilities.html"><i class="fa fa-book"></i> Requirements</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 10-10-2019 09:52</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 15-10-2019 16:57</span>
     <br style="clear:left"/>
 </div>
 
@@ -178,9 +178,9 @@ To veriry that price doesn't excedes tweenty thousand pesos
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-check-circle-o success-icon fa-2x' title='SUCCESS'></i></a></span>
+                            <span class="outcome-icon"><a href='##beforetable'><i class='fa fa-exclamation-triangle error-icon fa-2x' title='ERROR'></i></a></span>
                             <span class="test-case-title">
-                                <span class="success-color">Access the page and buy products
+                                <span class="error-color">Access the page and buy products
                                     <span class="related-issue-title"></span>
                                 </span>
                             </span>
@@ -197,30 +197,68 @@ To veriry that price doesn't excedes tweenty thousand pesos
 
     <div id="beforetable"></div>
     <div id="contenttilttle">
+            <div class="screenshotFailure panel panel-danger">
+
+    <div style="display:block">
+        <div class="table">
+            <div class="row">
+                <div class="col-sm-10" style="padding-left:1.5em; padding-top:0.5em; padding-bottom:0.5em;">
+                    <span class="error-message error-message-title">Stale element reference exception: stale element reference: element is not attached to the page document  (Session info: chrome=77.0.3865.90)  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 10.0.18362 x86_64) (WARNING: The server did not provide any stacktrace information)Command duration or timeout: 0 millisecondsFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/stale_element_reference.htmlBuild info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'System info: host: 'CHMEPPF0T3KVV', ip: '172.17.27.75', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'Driver info: org.openqa.selenium.chrome.ChromeDriverCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\MDOMIN~1\AppData\L...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:59212}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 77.0.3865.90, webStorageEnabled: true}Session ID: d47a36cd4a209646d6d729eb64e27d7c</span>
+                </div>
+                <div class="col-sm-2">
+                    <a class="btn btn-warning details-button" data-toggle="collapse" href="#stacktraceModal-overall""
+                       role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><i class="far fa-eye"></i> More details</a>
+                </div>
+             </div>
+        </div>
+    <div>
+
+    <!-- Details Section -->
+    <div class="row stacktrace-details">
+      <div class="col">
+        <div class="collapse multi-collapse" id="stacktraceModal-overall">
+            <div class="card">
+                <div class="card-header">
+                    <h4>org.openqa.selenium.StaleElementReferenceException </h4>
+                </div>
+                <div class="card-body">
+                    <div>
+                        <pre>tiendajumbo.interaction.Recorrer.performAs(Recorrer.java:32)<br />tiendajumbo.tasks.SelectCategory.performAs(SelectCategory.java:31)<br />tiendajumbo.stepdefinitions.TiendaStepDefinition.sheMakesTheRegistrationEntryInTheApplicationSelectFromMenuDespensaAndChooseProducts(TiendaStepDefinition.java:34)<br />cucumber.runner.Runner.runPickle(Runner.java:80)<br /></pre>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+                <div class="panel-body">
+                    <a href="pagesource5761955121295751919.html.txt" target="_blank" class="btn btn-info">HTML Source</a>
+                </div>
+            </div>
         <div class="slider-wrapper theme-default">
             <div id="slider">
-                <img src="84636ecf77b01d026d91b6f407beb7d9df13563b435a067d8054f7840248f1e3.png" title=" Given that Maleja needs to login on jumbo's page" width="1366"/>
-                <img src="84636ecf77b01d026d91b6f407beb7d9df13563b435a067d8054f7840248f1e3.png" title=" Maleja open the" width="1366"/>
-                <img src="84636ecf77b01d026d91b6f407beb7d9df13563b435a067d8054f7840248f1e3.png" title=" Maleja opens the Jumbo home" width="1366"/>
-                <img src="84636ecf77b01d026d91b6f407beb7d9df13563b435a067d8054f7840248f1e3.png" title=" Maleja open the (completed)" width="1366"/>
-                <img src="84636ecf77b01d026d91b6f407beb7d9df13563b435a067d8054f7840248f1e3.png" title=" Given that Maleja needs to login on jumbo's page (completed)" width="1366"/>
-                <img src="abcee06edaed196a3eb08a3b1ed0e5f2f8829a38ef88462fe853ad40a91763b6.png" title=" When she makes the registration entry in the application, select from menu despensa and choose products
+                <img src="98f939832234112cfc00da543190a1ee9237040327dab38410a50e87cc04c5f9.png" title=" Given that Maleja needs to login on jumbo's page" width="1366"/>
+                <img src="98f939832234112cfc00da543190a1ee9237040327dab38410a50e87cc04c5f9.png" title=" Maleja open the" width="1366"/>
+                <img src="98f939832234112cfc00da543190a1ee9237040327dab38410a50e87cc04c5f9.png" title=" Maleja opens the Jumbo home" width="1366"/>
+                <img src="98f939832234112cfc00da543190a1ee9237040327dab38410a50e87cc04c5f9.png" title=" Maleja open the (completed)" width="1366"/>
+                <img src="98f939832234112cfc00da543190a1ee9237040327dab38410a50e87cc04c5f9.png" title=" Given that Maleja needs to login on jumbo's page (completed)" width="1366"/>
+                <img src="d448890883a5f5d278169e711c0ce43fc418a12ffd8f3c7f0aa89b535a0b4064.png" title=" When she makes the registration entry in the application, select from menu despensa and choose products
 | Arroz y granos | Aceite | Caf&eacute; | Bebida achocolatada en polvo | Cereales | Harinas y mezclas | Pastas | Enlatados y conservas | Encurtidos y otros | Az&uacute;car, Endulzantes y Panelas | Chocolate de mesa | Avenas y salvado | Condimentos, caldos y sal | Bases, cremas y sopas | Salsas y vinagres | T&eacute;, infusiones e instantaneos |" width="1366"/>
-                <img src="abcee06edaed196a3eb08a3b1ed0e5f2f8829a38ef88462fe853ad40a91763b6.png" title=" Maleja logger in" width="1366"/>
-                <img src="abcee06edaed196a3eb08a3b1ed0e5f2f8829a38ef88462fe853ad40a91763b6.png" title=" Maleja clicks on M&eacute;todo de entrega" width="1366"/>
-                <img src="d9d0622b895ee0777a083bb52ddcfb8b81fded1b28351887e2317dec9ad848ec.png" title=" Maleja clicks on Recoge en tienda" width="1366"/>
-                <img src="922be545ffcba0350145f8c6385f3ff7f46f1cee23dab10e07871d1b01c98bc6.png" title=" Maleja clicks on Men&uacute; departamento" width="1366"/>
-                <img src="b601cdbc4a6741a7f30553903fbe54f1abe188c5cf3d71b0efd3807ec8d4c381.png" title=" Maleja clicks on Departamento entrega" width="1366"/>
-                <img src="aca1b7253a60873794bb43d6bd90ab6665399fb77d6932ecfb37396ba8415c01.png" title=" Maleja clicks on Men&uacute; ciudad" width="1366"/>
-                <img src="58b82ef27a7110cc1e2c0f92094e4fbb20206a8b28ba263d526f6e26c47f56c9.png" title=" Maleja clicks on Ciudad entrega" width="1366"/>
-                <img src="5de2a624563c2cf817f5ee6b2cf053ad2ba149f5a7d0ced18ad83d201cacd715.png" title=" Maleja clicks on Tienda" width="1366"/>
-                <img src="6b00c9517b2638841b9842b3d3d18ffb17d5d34a407df308e0edb43695844ce6.png" title=" Maleja clicks on las vegas" width="1366"/>
-                <img src="6be67c6a18111dabd177bb7c12eba3111e3c9a812574401d27a064d05f7780ef.png" title=" Maleja clicks on Bot&oacute;n confirmar" width="1366"/>
-                <img src="851d6f5b8661f014fc2270a34cf8067eec4acaac5ab36f7f51b6b5763178364d.png" title=" Maleja logger in (completed)" width="1366"/>
-                <img src="ae95341cec83bba6879058b997792aeddf7129230bed8be2beebd2153da52238.png" title=" Maleja clicks on Categorias tienda" width="1366"/>
-                <img src="3baad0997aedfba19f7e1d4bca9ce524375e9891c750da385563c6a7ee0c36ae.png" title=" When she makes the registration entry in the application, select from menu despensa and choose products
-| Arroz y granos | Aceite | Caf&eacute; | Bebida achocolatada en polvo | Cereales | Harinas y mezclas | Pastas | Enlatados y conservas | Encurtidos y otros | Az&uacute;car, Endulzantes y Panelas | Chocolate de mesa | Avenas y salvado | Condimentos, caldos y sal | Bases, cremas y sopas | Salsas y vinagres | T&eacute;, infusiones e instantaneos | (completed)" width="1366"/>
-                <img src="3baad0997aedfba19f7e1d4bca9ce524375e9891c750da385563c6a7ee0c36ae.png" title=" Then she visualizes the shoping car and verify that don't be major than tweenty thousand pesos: <span class='success-color'>SUCCESS</span>" width="1366"/>
+                <img src="d448890883a5f5d278169e711c0ce43fc418a12ffd8f3c7f0aa89b535a0b4064.png" title=" Maleja logger in" width="1366"/>
+                <img src="d448890883a5f5d278169e711c0ce43fc418a12ffd8f3c7f0aa89b535a0b4064.png" title=" Maleja clicks on M&eacute;todo de entrega" width="1366"/>
+                <img src="9341d7ff06740cd614cda41cec66a3df93669975f350008bfbc2f1013d467730.png" title=" Maleja clicks on Recoge en tienda" width="1366"/>
+                <img src="c1d39d510c4b8014c93ee646bcf9753bab25cfa85ff63859c747fd0a5fa61a9b.png" title=" Maleja clicks on Men&uacute; departamento" width="1366"/>
+                <img src="e30fe6ed27db686e3da6fb9d328600ff0677f879e55c482e6d92a29f19c36ad3.png" title=" Maleja clicks on Departamento entrega" width="1366"/>
+                <img src="4aec88a3bcd0bc9abd3b85e3db0a4c84fe6ebb43bd5ab0fdb16508d53d00b07c.png" title=" Maleja clicks on Men&uacute; ciudad" width="1366"/>
+                <img src="a6b64f9c8f32f2426f8ab277274c577ef59a777056566827a805a8be257f9aad.png" title=" Maleja clicks on Ciudad entrega" width="1366"/>
+                <img src="31b69e0334fd4e37d54eece42fd086f8e45bf66240877330a8709e0085977f1a.png" title=" Maleja clicks on Tienda" width="1366"/>
+                <img src="21cd9e8f7d8df87ee47478696be95c3b9bac44b3bdae19b297651ab2522a48fb.png" title=" Maleja clicks on las vegas" width="1366"/>
+                <img src="3f405e9721b85f8f96afdfff021f527c9493a504a7c652b46ffbf50d4e717fe0.png" title=" Maleja clicks on Bot&oacute;n confirmar" width="1366"/>
+                <img src="c57bdf6a4adce62cd6cb09f88423327aa74c89e4452f097939b0b2d440f65cb0.png" title=" Maleja logger in (completed)" width="1366"/>
+                <img src="06c6b4e99d05f4e7b3d267befd52c2192b817c1fbb0e6dedd31da55820675e61.png" title=" Maleja clicks on Categorias tienda" width="1366"/>
+                <img src="e1725527cd3841551cc7825ff322ea1f413407c69d51a39548599d886602383e.png" title=" When she makes the registration entry in the application, select from menu despensa and choose products
+| Arroz y granos | Aceite | Caf&eacute; | Bebida achocolatada en polvo | Cereales | Harinas y mezclas | Pastas | Enlatados y conservas | Encurtidos y otros | Az&uacute;car, Endulzantes y Panelas | Chocolate de mesa | Avenas y salvado | Condimentos, caldos y sal | Bases, cremas y sopas | Salsas y vinagres | T&eacute;, infusiones e instantaneos | (completed): <span class='error-color'>ERROR</span>" width="1366"/>
             </div>
         </div>
 

@@ -27,3 +27,15 @@ Z
 *src/main/java/tiendajumbo/model/Datos.java,c\5\c535f834109e154e172338166d3110f9a96f8e36
 g
 7src/main/java/tiendajumbo/model/entity/DatosEntity.java,3\e\3e1d98e92d1a33a57cbd79b6ba1ef9d07513e763
+c
+3src/main/java/tiendajumbo/interaction/Recorrer.java,7\2\72a27083d4bcef10a988e44642d1be3219f6b42d
+e
+5src/main/java/tiendajumbo/userinterfaces/BuyPage.java,5\0\504b01d8083c02156204c0e8652fff1a4558d1ec
+X
+(src/main/java/tiendajumbo/tasks/Buy.java,2\b\2b6658f72df7f8057a776c78c2369774252c0148
+b
+2src/main/java/tiendajumbo/util/TiempoUtilidad.java,1\5\15f0cc39a8bb4bf5dbb3053ca1db408473630bef
+i
+9src/main/java/tiendajumbo/interaction/TiempoDeEspera.java,2\8\284448911f12c6e0be60e8f246cd0a15d7fc63e4
+a
+1src/main/java/tiendajumbo/questions/Subtotal.java,9\2\92b8ca96d4719e21149494ba1604300233853cbb

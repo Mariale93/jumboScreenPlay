@@ -13,5 +13,5 @@ public class CategoryHome {
     public static final Target DESPENSA_LIST = Target.the("Lista de productos")
             .located(By.xpath("//li[@class='despensa active-menu']//li"));
     public static final Target DESPENSAS = Target.the("producto no visible")
-            .located(By.xpath("//li[@class='despensa active-menu']//li[16]"));;
+            .located(By.xpath("//li[@class='despensa active-menu']//li[16]"));
 }

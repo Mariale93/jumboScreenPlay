@@ -1,0 +1,10 @@
+
+Hsquid:S1068"*Remove this unused "precio" private field.(Ð¢Å”8©÷÷ŠÝ-
+isquid:CommentedOutCodeLine&"<This block of commented-out lines of code should be removed.(‚ñþ˜8©÷÷ŠÝ-
+osquid:UselessImportCheck"?Remove this unused import 'tiendajumbo.userinterfaces.BuyPage'.(ü‹Ö±øÿÿÿÿ8¥ÛÿŠÝ-
+isquid:CommentedOutCodeLine("<This block of commented-out lines of code should be removed.(²œ¯‘8Ò¦”ýÜ-
+V
+squid:S106-"9Replace this use of System.out or System.err by a logger.(¨³Ë8Îò»ãÛ-
+Hsquid:S1068"*Remove this unused "stotal" private field.(ÛÝêÒ8üõöŠÝ-
+rsquid:UselessImportCheck"HRemove this unused import 'tiendajumbo.userinterfaces.BuyPage.SUBTOTAL'.(‰ûÀ78Ýƒ«‹Ý-
+vsquid:UselessImportCheck	"FRemove this unused import 'net.serenitybdd.screenplay.questions.Text'.(ùŠ¨ÿÿÿÿÿ8Ýƒ«‹Ý-

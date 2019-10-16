@@ -1,0 +1,7 @@
+
+ssquid:S1450"URemove the "stotal" field and declare it as a local variable in the relevant methods.(€›Í“8Ä«áâ›-
+Hsquid:S1068
+"*Remove this unused "precio" private field.(–¢≈î8Œ¥èá›-
+isquid:CommentedOutCodeLine "<This block of commented-out lines of code should be removed.(ëˆä±8¡…˙ä›-
+nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(£ù“º¯ˇˇˇˇ8Í¡¯ä›-
+Rsquid:S1068	"/Remove this unused "preciototal" private field.(ÕÛ ∞¯ˇˇˇˇ8∫‰∫ä›-

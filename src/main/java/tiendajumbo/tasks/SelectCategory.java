@@ -2,18 +2,19 @@ package tiendajumbo.tasks;
 
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.Task;
-import net.serenitybdd.screenplay.actions.*;
-import org.openqa.selenium.Keys;
-import tiendajumbo.interaction.RecorrerLista;
+import net.serenitybdd.screenplay.actions.Click;
+import net.serenitybdd.screenplay.actions.MoveMouse;
+import net.serenitybdd.screenplay.actions.Scroll;
+import tiendajumbo.interaction.Recorrer;
 import tiendajumbo.model.entity.DatosEntity;
-import tiendajumbo.userinterfaces.CategoryHome;
 
 import java.util.List;
 
+import static tiendajumbo.userinterfaces.CategoryHome.*;
 
 public class SelectCategory implements Task {
-    CategoryHome categoryHome;
     private List<String> data;
+
 
     public SelectCategory(List<String> data) {
         this.data = data;
@@ -26,16 +27,12 @@ public class SelectCategory implements Task {
     @Override
     public <T extends Actor> void performAs(T actor) {
         DatosEntity.setDatos(data);
-        System.out.println(DatosEntity.getDatos().getArroz_granos());
 
- actor.attemptsTo(Click.on(categoryHome .CATEGORIAS),
-                MoveMouse.to(categoryHome.SUPERMERCADOS),
-                MoveMouse.to(categoryHome.DESPENSA),
-               //Scroll.to(categoryHome.DESPENSAS),
-         Scroll
-                RecorrerLista.inicio(categoryHome.DESPENSA_LIST,DatosEntity.getDatos().getBases_cremas_y_sopas())
-
+        actor.attemptsTo(Click.on(CATEGORIAS),
+                MoveMouse.to(SUPERMERCADOS),
+                MoveMouse.to(DESPENSA),
+                Scroll.to(DESPENSAS),
+                Recorrer.desde(DESPENSA_LIST)
         );
-
     }
 }

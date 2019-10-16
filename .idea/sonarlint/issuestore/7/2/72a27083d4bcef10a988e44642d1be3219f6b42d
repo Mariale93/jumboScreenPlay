@@ -1,0 +1,14 @@
+
+Lsquid:S1481!")Remove this unused "tope" local variable.(ö¶ãÔÿÿÿÿÿ8ëØ²‹Ý-
+nsquid:CommentedOutCodeLine""<This block of commented-out lines of code should be removed.(Ê¤¾ºúÿÿÿÿ8Áßª‹Ý-
+psquid:UselessImportCheck"ERemove this unused import 'org.openqa.selenium.interactions.Actions'.(ÅÑÃ8ÆõíˆÝ-
+psquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ä“£½8Å€½´Û-
+ksquid:UselessImportCheck	";Remove this unused import 'tiendajumbo.questions.Subtotal'.(¨È£Âÿÿÿÿÿ8É…©ŠÝ-
+osquid:UselessImportCheck"?Remove this unused import 'tiendajumbo.userinterfaces.BuyPage'.(ü‹Ö±øÿÿÿÿ8ÐØ–‹Ý-
+usquid:S00117"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ö¢ÞÐûÿÿÿÿ8È½Å´Û-
+Hsquid:S1068"*Remove this unused "stotal" private field.(ÛÝêÒ8ëØ²‹Ý-
+rsquid:UselessImportCheck"HRemove this unused import 'tiendajumbo.userinterfaces.BuyPage.SUBTOTAL'.(‰ûÀ78ð­£‹Ý-
+osquid:S00116"PRename this field "Lista" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÿÙÃ­8œÇº´Û-
+]squid:UselessImportCheck
+"2Remove this unused import 'tiendajumbo.tasks.Buy'.(öÓÛå8„Î”‹Ý-
+[squid:S1854!"8Remove this useless assignment to local variable "tope".(ö¶ãÔÿÿÿÿÿ8ëØ²‹Ý-

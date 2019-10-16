@@ -1,10 +1,2 @@
 
-V
-squid:S106"9Replace this use of System.out or System.err by a logger.(€Æ’ƒ8–ÁË’Û-
-Xsquid:S2209#"5Change this instance-reference to a static reference.(²€¦ıÿÿÿÿ8£¥«’Û-
-ssquid:UselessImportCheck"CRemove this unused import 'net.serenitybdd.screenplay.actions.Hit'.(Ğş²îùÿÿÿÿ8—’’Û-
-Ssquid:S2209!"5Change this instance-reference to a static reference.(îæ›8£¥«’Û-
-Ssquid:S2209""5Change this instance-reference to a static reference.(Òº¤»8£¥«’Û-
-`squid:UselessImportCheck"5Remove this unused import 'org.openqa.selenium.Keys'.(§Õ8—’’Û-
-msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÆ§Å8¥™ÄÀÚ-
-Xsquid:S2209$"5Change this instance-reference to a static reference.(Ì£›úÿÿÿÿÿ8£¥«’Û-
+msquid:S00100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÆ§Å8¥™ÄÀÚ-
